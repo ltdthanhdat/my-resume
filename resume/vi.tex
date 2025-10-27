@@ -15,14 +15,6 @@
         \mbox{\hrefWithoutArrow{tel:+84981729676}{0981729676}}%
         \kern 5.0 pt%
         \AND%
-        % \kern 5.0 pt%
-        % \mbox{\hrefWithoutArrow{https://yourwebsite.com/}{yourwebsite.com}}%
-        % \kern 5.0 pt%
-        % \AND%
-        % \kern 5.0 pt%
-        % \mbox{\hrefWithoutArrow{https://linkedin.com/in/yourusername}{linkedin.com/in/yourusername}}%
-        % \kern 5.0 pt%
-        % \AND%
         \kern 5.0 pt%
         \mbox{\hrefWithoutArrow{https://github.com/ltdthanhdat}{github.com/ltdthanhdat}}%
     \end{header}
@@ -30,7 +22,7 @@
     \vspace{5 pt - 0.3 cm}
 
 \section{Học vấn}
-    \begin{twocolentry}{9/2021 – 7/2025}
+    \begin{twocolentry}{9/2021 – 9/2025}
         \textbf{Đại học Bách Khoa Hà Nội}\end{twocolentry}
     \vspace{0.10 cm}
     \begin{onecolentry}
@@ -38,159 +30,87 @@
     \end{onecolentry}
 
 \section{Kinh nghiệm}
+    \begin{twocolentry}{5/2025 – hiện tại}
+        \textbf{Data Engineer}, Amira Holdings JSC
+    \end{twocolentry}
+\vspace{0.10 cm}
+
+\begin{onecolentry}
+    \begin{highlights}
+        \item Crawl dữ liệu tự động từ nhiều nguồn khác nhau (LinkedIn, job sites, company websites) sử dụng reverse engineering, Scrapy, Playwright.
+        \item Xử lý các unstructured data như IR reports, press release, company organization chart để trích xuất thông tin.
+        \item Xây dựng thuật toán matching để tìm và kết nối thông tin công ty, người dùng từ các nguồn dữ liệu khác nhau.
+        \item Triển khai pipeline xử lý dữ liệu quy mô lớn sử dụng Apache Spark làm compute engine, kết hợp với Daft, Ray và Rust để cải thiện hiệu suất xử lý và tối ưu RAM.
+        \item Tích hợp Elasticsearch để index và tìm kiếm dữ liệu company, articles.
+        \item Xây dựng test data và validation để đảm bảo chất lượng dữ liệu.
+        \item Tối ưu lập lịch Airflow thông qua việc quản lý assets và dependencies để tránh chờ tài nguyên và cân bằng thời gian chạy khi có nhiều task.
+        \item Xây dựng CI/CD pipeline cho data engineering với code coverage và tự động deployment.
+        \item Triển khai và quản lý GitOps workflow với ArgoCD để tự động deploy các ứng dụng Kubernetes.
+        \item Xây dựng BBQ Booking Agent App bằng LangGraph và Agent Chat UI bằng React để tương tác với agent.
+        \item Triển khai Knowledge Graph RAG system và SQL Agent để tìm kiếm và truy xuất thông tin từ cơ sở dữ liệu.
+    \end{highlights}
+\end{onecolentry}
+\vspace{0.2 cm}
+
     \begin{twocolentry}{1/2025 – 5/2025}
-        \textbf{Thực tập sinh Data Engineer}, Edupia
+        \textbf{Thực tập sinh Data Engineer}, Educa Corp
     \end{twocolentry}
 \vspace{0.10 cm}
     
 \begin{onecolentry}
     \begin{highlights}
         \item Triển khai và cấu hình môi trường lab trên server bare metal.
-        \item Triển khai và quản lý dịch vụ bằng Docker Swarm, đảm bảo khả năng mở rộng và tính sẵn sàng cao cho các thành phần hệ thống.
+        \item Triển khai và quản lý dịch vụ bằng Docker Swarm cho các thành phần hệ thống.
         \item Thiết lập hệ thống giám sát, logging và alerting cho hạ tầng dữ liệu bằng Prometheus, Grafana, bao gồm việc tạo và duy trì dashboard để theo dõi bộ nhớ Oracle Tablespace.
         \item Triển khai CI/CD trên GitLab CI/CD cho các pipeline dữ liệu.
-        \item Quản lý metadata dữ liệu sử dụng OpenMetadata để theo dõi và duy trì thông tin về các nguồn dữ liệu, bảng và data lineage.
+        \item Quản lý metadata dữ liệu với OpenMetadata để theo dõi data lineage và nguồn dữ liệu.
         \item Xây dựng pipeline ELT sử dụng Talend và Apache Airflow để tự động hóa quy trình xử lý dữ liệu.
         \item Sử dụng Kafka và Debezium để đồng bộ dữ liệu theo thời gian thực giữa các hệ thống.
-        \item Lập lịch và điều phối pipeline dữ liệu với Airflow, đảm bảo luồng dữ liệu ổn định và giám sát hiệu suất.
+        \item Lập lịch và điều phối pipeline dữ liệu với Airflow, đảm bảo luồng dữ liệu ổn định.
         \item Cấu hình và triển khai Cloudflare Zero Trust và Tailscale để bảo mật kết nối mạng, quản lý quyền truy cập và kết nối an toàn cho các dịch vụ nội bộ.
     \end{highlights}
 \end{onecolentry}
 \vspace{0.2 cm}
 
-\begin{twocolentry}{8/2024 – 1/2025}
-    \textbf{Thực tập sinh Data Engineer}, Tập đoàn Kim Nam
-\end{twocolentry}
-
-\vspace{0.10 cm}
-\begin{onecolentry}
-    \begin{highlights}
-        \item Thiết kế và triển khai kiến trúc Data Lakehouse để xử lý và lưu trữ dữ liệu.
-        \item Xây dựng các lớp dữ liệu Raw, Curated, Processed trên MinIO để quản lý hiệu quả.
-        \item Sử dụng định dạng bảng Apache Iceberg ở Processed Layer.
-        \item Phát triển pipeline ELT bằng Spark, Kafka.
-        \item Lập lịch và điều phối pipeline bằng Apache Airflow, tích hợp với hệ thống CRM.
-        \item Container hóa và điều phối pipeline với Docker, Kubernetes, phân phối tài nguyên Spark Worker.
-        \item Tối ưu truy vấn dữ liệu đa chiều bằng Trino.
-        \item Xây dựng hệ thống RAG với FAISS, LangChain.
-    \end{highlights}
-\end{onecolentry}
-
-
-
-    
-    % \section{Publications}
-
-
-
-        
-    %     \begin{samepage}
-    %         \begin{twocolentry}{
-    %             Jan 2004
-    %         }
-    %             \textbf{3D Finite Element Analysis of No-Insulation Coils}
-    %         \end{twocolentry}
-
-    %         \vspace{0.10 cm}
-            
-    %         \begin{onecolentry}
-    %             \mbox{Frodo Baggins}, \mbox{\textbf{\textit{John Doe}}}, \mbox{Samwise Gamgee}
-
-    %             \vspace{0.10 cm}
-                
-    %     \href{https://doi.org/10.1109/TASC.2023.3340648}{10.1109/TASC.2023.3340648}
-    %     \end{onecolentry}
-    %     \end{samepage}
-
-
-    
-%     \section{Dự án cá nhân}
-
-%         \begin{twocolentry}{
-%     \href{https://github.com/ltdthanhdat/hust_timetable}{\underline{link}}
-% }
-%     \textbf{Web crawl thời khóa biểu và tạo lịch tự động}
-% \end{twocolentry}
-
-% \vspace{0.10 cm}
-% \begin{onecolentry}
-
-%     \begin{highlights}
-%         \item Xây dựng công cụ tự động lấy thời khóa biểu từ trang web trường bằng Node.js và Puppeteer.
-%         \item Sử dụng cookies để đăng nhập vào hệ thống quản lý đào tạo của trường và truy xuất dữ liệu thời khóa biểu.
-%         \item Phân tích cấu trúc trang web để xác định vị trí và định dạng dữ liệu thời khóa biểu.
-%         \item Xây dựng backend bằng Node.js và Express.js để xử lý yêu cầu và cung cấp API trả về dữ liệu thời khóa biểu.
-%         \item Phát triển frontend bằng React.js để hiển thị giao diện trực quan, giúp người dùng xem lịch học dễ dàng.
-%         \item Tạo chức năng xuất thời khóa biểu dưới dạng file CSV, cho phép người dùng dễ dàng nhập lịch học vào Google Calendar.
-%     \end{highlights}
-
-% \end{onecolentry}
-
-
-
-
-
-    
-
 \section{Kỹ năng}
-
-% DevOps & Automation
-\begin{onecolentry}
-    \textbf{DevOps \& Automation:} Docker, K8s, Docker Swarm, GitLab CI/CD, Terraform, Ansible, Linux
-\end{onecolentry}
-\vspace{0.2 cm}
-
-% Cloud & Networking
-\begin{onecolentry}
-    \textbf{Cloud:} AWS EC2, AWS Lambda, AWS S3
-\end{onecolentry}
-\vspace{0.2 cm}
-
-\begin{onecolentry}
-    \textbf{Networking \& VPN:} OpenVPN, Tailscale, SSH Tunnel, Cloudflare Zero Trust, Nginx
-\end{onecolentry}
-\vspace{0.2 cm}
 
 % Data Engineering & Orchestration
 \begin{onecolentry}
-    \textbf{Data Engineering:} Apache Spark, dbt, Talend, Airbyte
+    \textbf{Data Engineering Tools:} Apache Spark, Daft, dbt, Talend, Kafka, Apache Airflow
 \end{onecolentry}
 \vspace{0.2 cm}
 
+
 \begin{onecolentry}
-    \textbf{Data Orchestration:} Apache Airflow
+    \textbf{Lakehouse:} MinIO, Trino, Iceberg, Delta
 \end{onecolentry}
 \vspace{0.2 cm}
 
+% AI & Machine Learning
 \begin{onecolentry}
-    \textbf{Database:} ClickHouse, Oracle, DuckDB, MongoDB
+    \textbf{AI:} LangGraph, LightRAG, Knowledge Graph
 \end{onecolentry}
 \vspace{0.2 cm}
 
+% DevOps & Automation
 \begin{onecolentry}
-    \textbf{Lakehouse:} MinIO, Trino, Parquet, Iceberg, Dremio
-\end{onecolentry}
-\vspace{0.2 cm}
-
-% Monitoring
-\begin{onecolentry}
-    \textbf{Monitoring:} Prometheus, Grafana
+    \textbf{DevOps \& Monitoring:} K8s, Docker Swarm, ArgoCD, Jenkins, Linux, Tailscale, Prometheus, Grafana
 \end{onecolentry}
 \vspace{0.2 cm}
 
 % Web Development & Scraping
 \begin{onecolentry}
-    \textbf{Web Development:} Node.js, ReactJS, Bootstrap, HTMX
+    \textbf{Web Development:} Node.js, ReactJS, Tailwind CSS, WebAssembly
 \end{onecolentry}
 \vspace{0.2 cm}
 
 \begin{onecolentry}
-    \textbf{Web Scraping:} Puppeteer, Selenium
+    \textbf{Web Scraping:} Playwright, Scrapy, Reverse Engineering, Browser Pool
 \end{onecolentry}
 \vspace{0.2 cm}
 
 % Programming Languages
 \begin{onecolentry}
-    \textbf{Programming Languages:} Python, JavaScript, Bash, C
+    \textbf{Programming Languages:} Python, JavaScript, Bash, Rust, Scala
 \end{onecolentry}
 \vspace{0.2 cm}

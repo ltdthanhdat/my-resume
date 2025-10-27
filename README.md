@@ -1,25 +1,19 @@
-# My resume
+# My Resume
 
-## Hướng dẫn build
+## Build Instructions
 
-### 1. Cài đặt các package cần thiết
-Bạn cần cài đặt các package sau (trên Ubuntu/Debian):
+### 1. Install Required Packages
+Install texlive-full (on Ubuntu/Debian):
 
 ```bash
 sudo apt update
-sudo apt install texlive-xetex texlive-latex-extra texlive-fonts-recommended latexmk fonts-font-awesome
-```
-
-Nếu muốn đầy đủ nhất, có thể cài:
-```bash
 sudo apt install texlive-full
 ```
 
-### 2. Build file PDF
+### 2. Build PDF File
 
 ```bash
-cd resume
-latexmk -xelatex main.tex
+make build
 ```
 
-Sau khi chạy xong, file `main.pdf` sẽ xuất hiện trong thư mục `resume/`.
+After running, the `main.pdf` file will appear in the `resume/` directory.
