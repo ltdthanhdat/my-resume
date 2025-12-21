@@ -49,7 +49,7 @@ Faculty of Mathematics and Informatics
 == Experience
 #chiline()
 
-*Data Engineer*, Amira Holdings JSC #h(1fr) 5/2024 -- Present \
+*Data Engineer*, Amira Holdings JSC #h(1fr) 5/2025 -- Present \
 - Developed automated data crawling systems from multiple sources (LinkedIn, job sites, company websites) using reverse engineering, Scrapy, and Playwright.
 - Processed unstructured data (IR reports, press releases, company organization charts) to extract structured information.
 - Built sitemap classification algorithms to categorize company website pages (contact forms, homepage, service pages, etc.) for targeted data extraction.
@@ -63,7 +63,7 @@ Faculty of Mathematics and Informatics
 - Built BBQ Booking Agent App using LangGraph and React with multi-step booking UI (location/time/seat selection, guest info, confirmation), shadow DOM integration, calendar view, state management, and payment link integration.
 - Deployed Knowledge Graph RAG system and SQL Agent to search and retrieve information from databases.
 
-*Data Engineer Intern*, Educa Corp #h(1fr) 1/2024 -- 5/2024 \
+*Data Engineer Intern*, Educa Corp #h(1fr) 1/2025 -- 5/2025 \
 - Deployed and configured a lab environment on a bare metal server.
 - Deployed and managed services using k3s and Helm for system components.
 - Set up monitoring, logging, and alerting for data infrastructure using Prometheus and Grafana, including creating and maintaining dashboards to track Oracle Tablespace memory usage.
