@@ -1,4 +1,5 @@
 #show heading: set text(font: "Linux Biolinum O")
+#show heading.where(level: 1): set text(size: 16pt)
 
 #show link: underline
 
@@ -96,7 +97,7 @@ Faculty of Mathematics and Informatics
 
 *Web Scraping:* Playwright, Scrapy, Reverse Engineering, Browser Pool
 
-*Programming Languages:* Python, JavaScript, Bash
+*Programming Languages:* Python, JavaScript, TypeScript, Bash
 
 // #lastupdated("January 2025")
 
@@ -106,6 +107,9 @@ Faculty of Mathematics and Informatics
 = Lê Thành Đạt
 
 #link("mailto:lethanhdat.me@gmail.com")[lethanhdat.me\@gmail.com] | #link("tel:+84981729676")[0981729676] | #link("https://github.com/ltdthanhdat")[github.com/ltdthanhdat]
+
+// Empty text block to match layout
+#text(fill: white, size: 0pt)[Data Engineer]
 
 == Học vấn
 #chiline()
@@ -160,6 +164,6 @@ Khoa Toán - Tin
 
 *Web Scraping:* Playwright, Scrapy, Reverse Engineering, Browser Pool
 
-*Programming Languages:* Python, JavaScript, Bash
+*Programming Languages:* Python, JavaScript, TypeScript, Bash
 
 // #lastupdated("Tháng 1, 2025")
