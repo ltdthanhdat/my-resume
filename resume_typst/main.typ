@@ -118,7 +118,7 @@ Khoa Toán - Tin
 == Kinh nghiệm
 #chiline()
 
-*Data Engineer*, Amira Holdings JSC #h(1fr) 5/2024 -- Hiện tại \
+*Data Engineer*, Amira Holdings JSC #h(1fr) 5/2025 -- Hiện tại \
 - Phát triển hệ thống crawl dữ liệu tự động từ nhiều nguồn khác nhau (LinkedIn, job sites, company websites) sử dụng reverse engineering, Scrapy, Playwright.
 - Xử lý các dữ liệu không có cấu trúc (IR reports, press releases, company organization charts) để trích xuất thông tin có cấu trúc.
 - Xây dựng thuật toán phân loại sitemap để phân loại các trang website của công ty (contact form, trang chủ, trang service, etc.) cho việc trích xuất dữ liệu có mục tiêu.
@@ -132,7 +132,7 @@ Khoa Toán - Tin
 - Xây dựng BBQ Booking Agent App sử dụng LangGraph và React với UI đặt bàn nhiều bước (chọn địa điểm/khung giờ/ghế, thông tin khách, xác nhận), tích hợp shadow DOM, calendar view, quản lý state, và tích hợp link thanh toán.
 - Triển khai hệ thống Knowledge Graph RAG và SQL Agent để tìm kiếm và truy xuất thông tin từ database.
 
-*Thực tập sinh Data Engineer*, Educa Corp #h(1fr) 1/2024 -- 5/2024 \
+*Thực tập sinh Data Engineer*, Educa Corp #h(1fr) 1/2025 -- 5/2025 \
 - Triển khai và cấu hình môi trường lab trên server bare metal.
 - Triển khai và quản lý dịch vụ bằng k3s và Helm cho các thành phần hệ thống.
 - Thiết lập hệ thống giám sát, logging và alerting cho hạ tầng dữ liệu bằng Prometheus, Grafana, bao gồm việc tạo và duy trì dashboard để theo dõi bộ nhớ Oracle Tablespace.
