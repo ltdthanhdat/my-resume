@@ -64,16 +64,15 @@ Faculty of Mathematics and Informatics
 - Deployed Knowledge Graph RAG system and SQL Agent to search and retrieve information from databases.
 
 *Data Engineer Intern*, Educa Corp #h(1fr) 1/2025 -- 5/2025 \
-- Deployed and configured a lab environment on a bare metal server.
-- Deployed and managed services using k3s and Helm for system components.
+- Deployed and configured a lab environment on a bare metal server, and managed services using k3s and Helm for system components.
 - Set up monitoring, logging, and alerting for data infrastructure using Prometheus and Grafana, including creating and maintaining dashboards to track Oracle Tablespace memory usage.
 - Implemented CI/CD pipelines using GitLab CI/CD for data workflows.
 - Managed metadata using OpenMetadata to track data lineage and data sources.
-- Built ELT pipelines using Talend and Apache Airflow to automate data processing workflows.
-- Built ELT pipelines to synchronize CRM data (contacts, accounts, deals, tickets) from source systems to data warehouse, enabling sales and customer service reporting.
+- Built ELT pipelines using Talend and Apache Airflow to automate data processing workflows and synchronize CRM data (contacts, accounts, deals, tickets) from source systems to data warehouse, enabling sales and customer service reporting.
 - Processed and integrated study logs from multiple sources (video sessions, exercises, mini tests) to analyze student learning behavior and performance metrics.
 - Utilized Kafka and Debezium to enable real-time data synchronization between systems.
 - Scheduled and orchestrated data pipelines with Airflow, ensuring stable data flow.
+- Built semantic layer using Cube for unified data access and analytics across multiple data sources, and developed custom connection configurations.
 - Configured Tailscale with ACLs to manage network access permissions and secure internal service connections.
 
 == Skills
@@ -89,7 +88,7 @@ Faculty of Mathematics and Informatics
 
 *DevOps & Monitoring:* K8s, ArgoCD, Jenkins, Linux, Tailscale, Prometheus, Grafana
 
-*Cloud:* AWS EC2, AWS Lambda, AWS S3
+*Cloud:* Microsoft Fabric, AWS EC2, AWS Lambda, AWS S3
 
 *Web Development:* Node.js, ReactJS, Tailwind CSS
 
@@ -133,16 +132,15 @@ Khoa Toán - Tin
 - Triển khai hệ thống Knowledge Graph RAG và SQL Agent để tìm kiếm và truy xuất thông tin từ database.
 
 *Thực tập sinh Data Engineer*, Educa Corp #h(1fr) 1/2025 -- 5/2025 \
-- Triển khai và cấu hình môi trường lab trên server bare metal.
-- Triển khai và quản lý dịch vụ bằng k3s và Helm cho các thành phần hệ thống.
+- Triển khai và cấu hình môi trường lab trên server bare metal, và quản lý dịch vụ bằng k3s và Helm cho các thành phần hệ thống.
 - Thiết lập hệ thống giám sát, logging và alerting cho hạ tầng dữ liệu bằng Prometheus, Grafana, bao gồm việc tạo và duy trì dashboard để theo dõi bộ nhớ Oracle Tablespace.
 - Triển khai CI/CD trên GitLab CI/CD cho các pipeline dữ liệu.
 - Quản lý metadata dữ liệu với OpenMetadata để theo dõi data lineage và nguồn dữ liệu.
-- Xây dựng pipeline ELT sử dụng Talend và Apache Airflow để tự động hóa quy trình xử lý dữ liệu.
-- Xây dựng pipeline ELT để đồng bộ dữ liệu CRM (contacts, accounts, deals, tickets) từ hệ thống nguồn vào data warehouse, hỗ trợ báo cáo bán hàng và chăm sóc khách hàng.
+- Xây dựng pipeline ELT sử dụng Talend và Apache Airflow để tự động hóa quy trình xử lý dữ liệu và đồng bộ dữ liệu CRM (contacts, accounts, deals, tickets) từ hệ thống nguồn vào data warehouse, hỗ trợ báo cáo bán hàng và chăm sóc khách hàng.
 - Xử lý và tích hợp dữ liệu study logs từ nhiều nguồn (video sessions, exercises, mini tests) để phân tích hành vi học tập và hiệu suất của học sinh.
 - Sử dụng Kafka và Debezium để đồng bộ dữ liệu theo thời gian thực giữa các hệ thống.
 - Lập lịch và điều phối pipeline dữ liệu với Airflow, đảm bảo luồng dữ liệu ổn định.
+- Xây dựng semantic layer sử dụng Cube để truy cập và phân tích dữ liệu thống nhất từ nhiều nguồn dữ liệu khác nhau, và phát triển cấu hình kết nối tùy chỉnh.
 - Cấu hình Tailscale với ACLs để quản lý quyền truy cập mạng và bảo mật kết nối các dịch vụ nội bộ.
 
 == Kỹ năng
@@ -157,6 +155,8 @@ Khoa Toán - Tin
 *AI:* LangGraph, LightRAG, Knowledge Graph
 
 *DevOps & Monitoring:* K8s, ArgoCD, Jenkins, Linux, Tailscale, Prometheus, Grafana
+
+*Cloud:* Microsoft Fabric, AWS EC2, AWS Lambda, AWS S3
 
 *Web Development:* Node.js, ReactJS, Tailwind CSS
 
